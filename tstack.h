@@ -37,7 +37,7 @@ public:
 		return mas[Index];
 	}
 //-----
-	T PoP(){						//Вытащить элемент из стека
+	T Pop(){						//Вытащить элемент из стека
 		if (Index < 0) throw Index;
 		return mas[Index--];
 	}
@@ -75,5 +75,8 @@ public:
 		return 1;
 	}
 //-----
+	void clear() {
+		index = -1;
+	}
 };
 

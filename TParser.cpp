@@ -11,12 +11,3 @@ int main()
 }
 
 
-
-TParser::TParser()
-{
-}
-
-
-TParser::~TParser()
-{
-}
